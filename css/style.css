@@ -3091,7 +3091,7 @@ b {
   min-height: 200px;
   max-height: 400px;
   min-width: 300px;
-  color: #eee;
+  color: #512a1a;
   margin-top: 65px;
   margin-bottom: 30px;
 }
@@ -3108,7 +3108,7 @@ b {
   min-height: 100px;
   max-height: 100px;
   min-width: auto;
-  color: #eee;
+  color: #512a1a;
 }
 
 .header1:after {
@@ -3132,7 +3132,7 @@ b {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
-  background: #1B2030 url('http://www.vaahana.net/wp-content/uploads/2014/11/correct2-too-small.jpg') top center !important;
+  background: #1B2030 url('../images/slider-banner.jpg') top center !important;
   background-size: cover;
   background-attachment: fixed;
   animation: grow 60s linear 10ms infinite;
@@ -3161,7 +3161,7 @@ b {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0);
-  background: #1B2030 url('http://www.vaahana.net/wp-content/uploads/2014/11/correct2-too-small.jpg') top center !important;
+  background: #1B2030 url('../images/slider-banner.jpg') top center !important;
   background-size: cover;
   background-attachment: fixed;
   animation: grow 60s linear 10ms infinite;
