@@ -49,10 +49,10 @@ jQuery(document).ready(function($) {
     }
 
     //set animation timing
-    var animationDelay = 5000,
+    var animationDelay = 1000,
         //loading bar effect
-        barAnimationDelay = 7500,
-        barWaiting = barAnimationDelay - 6000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
+        barAnimationDelay = 6000,
+        barWaiting = barAnimationDelay - 5000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
         //letters effect
         lettersDelay = 100,
         //type effect
