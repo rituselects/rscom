@@ -1,5 +1,5 @@
-$(function(){
-    function timer(settings){
+$(function() {
+    function timer(settings) {
         var config = {
             endDate: '2025-12-31 23:56:04',
             timeZone: 'Europe/Amsterdam',
@@ -8,7 +8,8 @@ $(function(){
             seconds: $('#seconds'),
             newSubMessage: 'and should be back online in a few minutes...'
         };
-        function prependZero(number){
+
+        function prependZero(number) {
             return number < 10 ? '0' + number : number;
         }
         $.extend(true, config, settings || {});
@@ -20,26 +21,26 @@ $(function(){
         var interval = 1000;
         var subMessage = $('.sub-message');
         var clock = $('.clock');
-        if(diffTime < 0){
+        if (diffTime < 0) {
             endEvent(subMessage, config.newSubMessage, clock);
             return;
         }
-        if(days > 0){
+        if (days > 0) {
             $('#days').text(prependZero(days));
             $('.days').css('display', 'inline-block');
         }
-        var intervalID = setInterval(function(){
+        var intervalID = setInterval(function() {
             duration = moment.duration(duration - interval, 'milliseconds');
             var hours = duration.hours(),
                 minutes = duration.minutes(),
                 seconds = duration.seconds();
             days = duration.days();
-            if(hours  <= 0 && minutes <= 0 && seconds  <= 0 && days <= 0){
+            if (hours <= 0 && minutes <= 0 && seconds <= 0 && days <= 0) {
                 clearInterval(intervalID);
                 endEvent(subMessage, config.newSubMessage, clock);
                 window.location.reload();
             }
-            if(days === 0){
+            if (days === 0) {
                 $('.days').hide();
             }
             $('#days').text(prependZero(days));
@@ -48,7 +49,8 @@ $(function(){
             config.seconds.text(prependZero(seconds));
         }, interval);
     }
-    function endEvent($el, newText, hideEl){
+
+    function endEvent($el, newText, hideEl) {
         $el.text(newText);
         hideEl.hide();
     }
