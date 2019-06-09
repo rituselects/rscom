@@ -472,7 +472,6 @@ figure.effect-apollo:hover figcaption::before {
     display: flex;
     flex-wrap: wrap;
     color: #512a1a;
-
 }
 
 .footer:before {
@@ -497,7 +496,7 @@ figure.effect-apollo:hover figcaption::before {
 
 .agileinfofooter-grid {
     padding: 0;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .agileinfofooter-grid ul li {
@@ -524,7 +523,7 @@ figure.effect-apollo:hover figcaption::before {
 /*-- Copyright --*/
 
 .w3lscopyrightaits {
-    padding: 0 100px 50px;
+    padding: 0 100px 5px;
 }
 
 .w3lscopyrightaitsgrid {
@@ -533,7 +532,7 @@ figure.effect-apollo:hover figcaption::before {
 
 .w3lscopyrightaitsgrid1 p {
     color: #512a1a;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .w3lscopyrightaitsgrid1 p a {
@@ -3353,9 +3352,9 @@ b {
     align-items: flex-start;
     align-content: flex-start;
     height: 50vw;
-    min-height: 200px;
-    max-height: 400px;
-    min-width: 300px;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: auto;
     color: #512a1a;
     margin-top: 65px;
     margin-bottom: 30px;
