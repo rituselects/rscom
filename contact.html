@@ -129,20 +129,38 @@
             <section class="section2">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="sec2contactform">
-                        <form method="post">
-                            <div class="clearfix">
-                                <input name="name" class="col1" type="text" placeholder="Name">
-                            </div>
-                            <div class="clearfix">
-                                <input name="email" class="col2 first" type="Email" placeholder="Email">
-                                <input name="phone" class="col2 last" type="text" placeholder="Contact Number">
-                            </div>
-                            <div class="clearfix">
-                                <textarea name="message" id="" cols="30" rows="7">Your message here...</textarea>
-                            </div>
-                            <div class="clearfix">
-                                <input type="submit" value="Send"></div>
-                        </form>
+                        <!-- Starting of ajax contact form -->
+<form class="contact__form" method="post" action="mail.php">
+    <!-- Starting of successful form message -->
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                Your message was sent successfully.
+            </div>
+        </div>
+    </div>
+    <!-- Ending of successful form message -->
+
+    <!-- Element of the ajax contact form -->
+
+        <div class="clearfix">
+            <input name="name" type="text" class="col2 first" placeholder="Name" required>
+            <input name="email" type="email" class="col2 last" placeholder="Email" required>
+        </div>
+        <div class="clearfix">
+            <input name="phone" type="text" class="col2 first" placeholder="Phone" required>
+            <input name="subject" type="text" class="col2 last" placeholder="Subject" required>
+        </div>
+        <div class="clearfix">
+            <textarea name="message" class="form-control" rows="7" placeholder="Message" required></textarea>
+        </div>
+        <div class="clearfix">
+            <input name="submit" type="submit" class="btn btn-success" value="Send Message">
+        </div>
+
+</form>
+<!-- Ending of ajax contact form -->
+
                     </div>
 
                 </div>
@@ -356,6 +374,7 @@
 
 
     <!-- Custom-JavaScript-File-Links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap-JavaScript -->
     <script src="js/bootstrap.js"></script>
