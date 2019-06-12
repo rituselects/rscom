@@ -21,6 +21,6 @@ $validator->field('message')->maxLength(6000);
 
 
 
-$pp->sendEmailTo('nsalma006@gmail.com'); // ← Your email here
+$pp->sendEmailTo('info@rituselects.com'); // ← Your email here
 
 echo $pp->process($_POST);
