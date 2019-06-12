@@ -64,6 +64,7 @@
 
     <!-- Default-JavaScript -->
     <script src="js/jquery-2.2.3.js"></script>
+    <script src="form.js"></script>
     <link rel="icon" type="image/png" href="images/favicon.png" />
 
 </head>
@@ -129,37 +130,32 @@
             <section class="section2">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="sec2contactform">
-                        <!-- Starting of ajax contact form -->
-<form class="contact__form" method="post" action="mail.php">
-    <!-- Starting of successful form message -->
-    <div class="row">
-        <div class="col-12">
-            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                Your message was sent successfully.
-            </div>
-        </div>
-    </div>
-    <!-- Ending of successful form message -->
-
-    <!-- Element of the ajax contact form -->
-
-        <div class="clearfix">
-            <input name="name" type="text" class="col2 first" placeholder="Name" required>
-            <input name="email" type="email" class="col2 last" placeholder="Email" required>
-        </div>
-        <div class="clearfix">
-            <input name="phone" type="text" class="col2 first" placeholder="Phone" required>
-            <input name="subject" type="text" class="col2 last" placeholder="Subject" required>
-        </div>
-        <div class="clearfix">
-            <textarea name="message" class="form-control" rows="7" placeholder="Message" required></textarea>
-        </div>
-        <div class="clearfix">
-            <input name="submit" type="submit" class="btn btn-success" value="Send Message">
-        </div>
-
-</form>
-<!-- Ending of ajax contact form -->
+                        <form role="form" method="post" id="reused_form">
+                            <div class="row">
+                                <div class="clearfix">
+                                    <input type="text" class="col2 first" id="firstname" name="firstname" maxlength="50" placeholder="First Name" required>
+                                    <input type="text" class="col2 last" id="lastname" name="lastname" maxlength="50" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="clearfix">
+                                    <input type="text" class="col2 first" id="email" name="email" maxlength="50" placeholder="Email" required>
+                                    <input type="text" class="col2 last" id="phone" name="phone" required maxlength="50" placeholder="Phone" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="clearfix">
+                                    <textarea type="textarea" id="message" name="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="clearfix">
+                                    <input type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs" value="Send message">
+                                </div>
+                            </div>
+                        </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
 
                     </div>
 
@@ -374,7 +370,6 @@
 
 
     <!-- Custom-JavaScript-File-Links -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap-JavaScript -->
     <script src="js/bootstrap.js"></script>
