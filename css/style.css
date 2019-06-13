@@ -1982,6 +1982,15 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 768px) {
+    a.dropdown-toggle.hyper,
+    .navbar-default .navbar-nav>li>a {
+        padding: 10px 6px;
+        font-size: 11px;
+    }
+    a.dropdown-toggle.hyper,
+    .navbar-default .navbar-nav>li>a {
+        margin: 15px -1px 17px -1px;
+    }
     li.wthreesearch {
         right: 8%;
     }
