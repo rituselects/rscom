@@ -1047,9 +1047,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 1280px) {
-    #sect {
-        margin-top: 75px;
-    }
     .nav {
         margin-top: -70px;
         margin-left: 280px;
@@ -1115,9 +1112,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 1080px) {
-    #sect {
-        margin-top: 75px;
-    }
     a.navbar-brand {
         font-size: 18px;
     }
@@ -1254,9 +1248,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 1050px) {
-    #sect {
-        margin-top: 75px;
-    }
     .nav {
         margin-left: 240px;
     }
@@ -1415,9 +1406,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 1024px) {
-    #sect {
-        margin-top: 75px;
-    }
     .nav {
         margin-left: 240px;
     }
@@ -1548,9 +1536,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 991px) {
-    #sect {
-        margin-top: 70px;
-    }
     .nav {
         margin-left: 240px;
     }
@@ -1682,9 +1667,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 960px) {
-    #sect {
-        margin-top: 50px;
-    }
     a.dropdown-toggle.hyper,
     .navbar-default .navbar-nav>li>a {
         padding: 10px 6px;
@@ -1740,9 +1722,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 854px) {
-    #sect {
-        margin-top: 50px;
-    }
     a.dropdown-toggle.hyper,
     .navbar-default .navbar-nav>li>a {
         padding: 10px 6px;
@@ -1756,9 +1735,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 800px) {
-    #sect {
-        margin-top: 50px;
-    }
     a.dropdown-toggle.hyper,
     .navbar-default .navbar-nav>li>a {
         padding: 10px 6px;
@@ -2104,9 +2080,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 767px) {
-    #sect {
-        margin-top: 60px;
-    }
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
         background-color: #c41228;
@@ -2149,9 +2122,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 736px) {
-    #sect {
-        margin-top: 60px;
-    }
     .dropdown-menu.multi {
         padding: 0px 0 0;
     }
@@ -2226,9 +2196,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 667px) {
-    #sect {
-        margin-top: 60px;
-    }
     .agileheader-topbar-grid,
     .agileheader-topbar-grid.agileheader-topbar-grid2 {
         width: 100%;
@@ -2406,9 +2373,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 640px) {
-    #sect {
-        margin-top: 60px;
-    }
     .w3paymentsaits h1 {
         font-size: 28px;
         margin-bottom: 35px;
@@ -2425,9 +2389,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 600px) {
-    #sect {
-        margin-top: 60px;
-    }
     .w3slideraits {
         height: 350px;
     }
@@ -2562,9 +2523,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 480px) {
-    #sect {
-        margin-top: 60px;
-    }
     .agileheader-topbar {
         padding: 12px 0;
     }
@@ -2730,9 +2688,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 414px) {
-    #sect {
-        margin-top: 60px;
-    }
     .navbar-toggle {
         padding: 7px 7px;
     }
@@ -3023,9 +2978,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 384px) {
-    #sect {
-        margin-top: 50px;
-    }
     .w3slideraits {
         height: 220px;
     }
@@ -3093,9 +3045,6 @@ a.pa_italic:focus {
 }
 
 @media screen and (max-width: 375px) {
-    #sect {
-        margin-top: 50px;
-    }
     .email-form input.email {
         width: 68%;
         font-size: 12px;
@@ -3370,7 +3319,6 @@ a.pa_italic:focus {
     -moz-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    margin-top: 75px;
 }
 
 #sect::before {
